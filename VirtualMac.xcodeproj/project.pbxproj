@@ -1,417 +1,390 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 56;
-	objects = {
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
 
 /* Begin PBXBuildFile section */
-		5F0001E32C1A0001A1234567 /* VirtualMacApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0001D82C1A0001A1234567; };
-		5F0001E42C1A0001A1234567 /* VZAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0001D92C1A0001A1234567; };
-		5F0001E52C1A0001A1234567 /* VZDiagnostics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0001DA2C1A0001A1234567; };
-		5F0001E62C1A0001A1234567 /* VZSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0001DB2C1A0001A1234567; };
-		5F0001E72C1A0001A1234567 /* VZGuestRuntimePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0001DC2C1A0001A1234567; };
-		5F0001E82C1A0001A1234567 /* VZJITSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0001DD2C1A0001A1234567; };
-		5F0001E92C1A0001A1234567 /* VirtualMacLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0001DE2C1A0001A1234567; };
-		5F0001EA2C1A0001A1234567 /* VirtualMac-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F0001DF2C1A0001A1234567; };
-		5F0001EB2C1A0001A1234567 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0001E02C1A0001A1234567; };
-		5F0001EC2C1A0001A1234567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0001E12C1A0001A1234567; };
-		5F0001ED2C1A0001A1234567 /* Virtualization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0001E22C1A0001A1234567; };
+        0800A1014A7A7A7A /* VirtualMacApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A0104A7A7A7A /* VirtualMacApp.m */; };
+        0800A1024A7A7A7A /* NSViewShim.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A0114A7A7A7A /* NSViewShim.m */; };
+        0800A1034A7A7A7A /* VZAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A0124A7A7A7A /* VZAppSettings.m */; };
+        0800A1044A7A7A7A /* VZDiagnostics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A0134A7A7A7A /* VZDiagnostics.m */; };
+        0800A1054A7A7A7A /* VZFailureDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A0144A7A7A7A /* VZFailureDetailsViewController.m */; };
+        0800A1064A7A7A7A /* VZNewVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A0154A7A7A7A /* VZNewVMViewController.m */; };
+        0800A1074A7A7A7A /* VZProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A0164A7A7A7A /* VZProgressViewController.m */; };
+        0800A1084A7A7A7A /* VZSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A0174A7A7A7A /* VZSettingsViewController.m */; };
+        0800A1094A7A7A7A /* VZTrackpadScrollBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A0184A7A7A7A /* VZTrackpadScrollBridge.m */; };
+        0800A10A4A7A7A7A /* VZGuestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A0194A7A7A7A /* VZGuestTools.m */; };
+        0800A10B4A7A7A7A /* VZGuestRuntimePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A01A4A7A7A7A /* VZGuestRuntimePolicy.m */; };
+        0800A10C4A7A7A7A /* VZVMLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A01B4A7A7A7A /* VZVMLibraryViewController.m */; };
+        0800A10D4A7A7A7A /* VZSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A01C4A7A7A7A /* VZSupport.m */; };
+        0800A10E4A7A7A7A /* VZRestoreCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A01D4A7A7A7A /* VZRestoreCatalog.m */; };
+        0800A10F4A7A7A7A /* virtualmac_diagnostics_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A01E4A7A7A7A /* virtualmac_diagnostics_main.m */; };
+        0800A1104A7A7A7A /* vzxpchook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800A01F4A7A7A7A /* vzxpchook.m */; };
+        0800A1114A7A7A7A /* VirtualMacLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0800A0204A7A7A7A /* VirtualMacLaunchScreen.storyboard */; };
+        0800A1124A7A7A7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0800A0214A7A7A7A /* UIKit.framework */; };
+        0800A1134A7A7A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0800A0224A7A7A7A /* Foundation.framework */; };
+        0800A1144A7A7A7A /* Virtualization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0800A0234A7A7A7A /* Virtualization.framework */; };
+        0800A1154A7A7A7A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0800A0244A7A7A7A /* WebKit.framework */; };
+        0800A1164A7A7A7A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0800A0254A7A7A7A /* AVFoundation.framework */; };
+        0800A1174A7A7A7A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0800A0264A7A7A7A /* QuartzCore.framework */; };
+        0800A1184A7A7A7A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0800A0274A7A7A7A /* CoreImage.framework */; };
+        0800A1194A7A7A7A /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0800A0284A7A7A7A /* Metal.framework */; };
+
+a1f4c5e0f9d941d9a /* VirtualMac.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = a1f4c5e0f9d941d9a /* VirtualMac.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F0001D72C1A0001A1234567 /* VirtualMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F0001D82C1A0001A1234567 /* VirtualMacApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualMacApp.m; sourceTree = "<group>"; };
-		5F0001D92C1A0001A1234567 /* VZAppSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZAppSettings.m; sourceTree = "<group>"; };
-		5F0001DA2C1A0001A1234567 /* VZDiagnostics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZDiagnostics.m; sourceTree = "<group>"; };
-		5F0001DB2C1A0001A1234567 /* VZSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZSupport.m; sourceTree = "<group>"; };
-		5F0001DC2C1A0001A1234567 /* VZGuestRuntimePolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZGuestRuntimePolicy.m; sourceTree = "<group>"; };
-		5F0001DD2C1A0001A1234567 /* VZJITSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZJITSupport.m; sourceTree = "<group>"; };
-		5F0001DE2C1A0001A1234567 /* VirtualMacLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VirtualMacLaunchScreen.storyboard; sourceTree = "<group>"; };
-		5F0001DF2C1A0001A1234567 /* VirtualMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VirtualMac-Info.plist"; sourceTree = "<group>"; };
-		5F0001E02C1A0001A1234567 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5F0001E12C1A0001A1234567 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5F0001E22C1A0001A1234567 /* Virtualization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Virtualization.framework; path = System/Library/Frameworks/Virtualization.framework; sourceTree = SDKROOT; };
+        0800A0104A7A7A7A /* VirtualMacApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VirtualMacApp.m"; sourceTree = "<group>"; };
+        0800A0114A7A7A7A /* NSViewShim.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/NSViewShim.m"; sourceTree = "<group>"; };
+        0800A0124A7A7A7A /* VZAppSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZAppSettings.m"; sourceTree = "<group>"; };
+        0800A0134A7A7A7A /* VZDiagnostics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZDiagnostics.m"; sourceTree = "<group>"; };
+        0800A0144A7A7A7A /* VZFailureDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZFailureDetailsViewController.m"; sourceTree = "<group>"; };
+        0800A0154A7A7A7A /* VZNewVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZNewVMViewController.m"; sourceTree = "<group>"; };
+        0800A0164A7A7A7A /* VZProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZProgressViewController.m"; sourceTree = "<group>"; };
+        0800A0174A7A7A7A /* VZSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZSettingsViewController.m"; sourceTree = "<group>"; };
+        0800A0184A7A7A7A /* VZTrackpadScrollBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZTrackpadScrollBridge.m"; sourceTree = "<group>"; };
+        0800A0194A7A7A7A /* VZGuestTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZGuestTools.m"; sourceTree = "<group>"; };
+        0800A01A4A7A7A7A /* VZGuestRuntimePolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZGuestRuntimePolicy.m"; sourceTree = "<group>"; };
+        0800A01B4A7A7A7A /* VZVMLibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZVMLibraryViewController.m"; sourceTree = "<group>"; };
+        0800A01C4A7A7A7A /* VZSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZSupport.m"; sourceTree = "<group>"; };
+        0800A01D4A7A7A7A /* VZRestoreCatalog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/VZRestoreCatalog.m"; sourceTree = "<group>"; };
+        0800A01E4A7A7A7A /* virtualmac_diagnostics_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/virtualmac_diagnostics_main.m"; sourceTree = "<group>"; };
+        0800A01F4A7A7A7A /* vzxpchook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VirtualMac/vz/host/vzxpchook.m"; sourceTree = "<group>"; };
+        0800A0204A7A7A7A /* VirtualMacLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "VirtualMac/vz/host/VirtualMacLaunchScreen.storyboard"; sourceTree = "<group>"; };
+        0800A0214A7A7A7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+        0800A0224A7A7A7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+        0800A0234A7A7A7A /* Virtualization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Virtualization.framework; path = System/Library/Frameworks/Virtualization.framework; sourceTree = SDKROOT; };
+        0800A0244A7A7A7A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+        0800A0254A7A7A7A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+        0800A0264A7A7A7A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+        0800A0274A7A7A7A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+        0800A0284A7A7A7A /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+        a1f4c5e0f9d941d9a /* VirtualMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "VirtualMac/vz/host/VirtualMac.entitlements"; sourceTree = "<group>"; };
+        0800A0294A7A7A7A /* VirtualMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        F5B5F61D7710F3A2 /* VirtualMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VirtualMac/vz/host/VirtualMac-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5F0001D42C1A0001A1234567 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F0001EB2C1A0001A1234567 /* UIKit.framework in Frameworks */,
-				5F0001EC2C1A0001A1234567 /* Foundation.framework in Frameworks */,
-				5F0001ED2C1A0001A1234567 /* Virtualization.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        0900A1D0EFD0A1F90 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                0800A1124A7A7A7A /* UIKit.framework in Frameworks */,
+                0800A1134A7A7A7A /* Foundation.framework in Frameworks */,
+                0800A1144A7A7A7A /* Virtualization.framework in Frameworks */,
+                0800A1154A7A7A7A /* WebKit.framework in Frameworks */,
+                0800A1164A7A7A7A /* AVFoundation.framework in Frameworks */,
+                0800A1174A7A7A7A /* QuartzCore.framework in Frameworks */,
+                0800A1184A7A7A7A /* CoreImage.framework in Frameworks */,
+                0800A1194A7A7A7A /* Metal.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5F0001CB2C1A0001A1234567 = {
-			isa = PBXGroup;
-			children = (
-				5F0001D62C1A0001A1234567 /* VirtualMac */,
-				5F0001DF2C1A0001A1234567 /* VirtualMac-Info.plist */,
-				5F0001DE2C1A0001A1234567 /* VirtualMacLaunchScreen.storyboard */,
-				5F0001DFF2C1A0001A1234567 /* Frameworks */,
-				5F0001D72C1A0001A1234567 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		5F0001D72C1A0001A1234567 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5F0001D72C1A0001A1234567 /* VirtualMac.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5F0001D62C1A0001A1234567 /* VirtualMac */ = {
-			isa = PBXGroup;
-			children = (
-				5F0001D82C1A0001A1234567 /* VirtualMacApp.m */,
-				5F0001D92C1A0001A1234567 /* VZAppSettings.m */,
-				5F0001DA2C1A0001A1234567 /* VZDiagnostics.m */,
-				5F0001DB2C1A0001A1234567 /* VZSupport.m */,
-				5F0001DC2C1A0001A1234567 /* VZGuestRuntimePolicy.m */,
-				5F0001DD2C1A0001A1234567 /* VZJITSupport.m */,
-			);
-			path = VirtualMac;
-			sourceTree = "<group>";
-		};
-		5F0001DFF2C1A0001A1234567 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5F0001E02C1A0001A1234567 /* UIKit.framework */,
-				5F0001E12C1A0001A1234567 /* Foundation.framework */,
-				5F0001E22C1A0001A1234567 /* Virtualization.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
+        0900A1C0EFD0A1F90 = {
+            isa = PBXGroup;
+            children = (
+                0900A1D1EFD0A1F90 /* Host App */,
+                0900A1D2EFD0A1F90 /* Frameworks */,
+                0900A1D3EFD0A1F90 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        0900A1D1EFD0A1F90 /* Host App */ = {
+            isa = PBXGroup;
+            children = (
+                0800A0104A7A7A7A /* VirtualMacApp.m */,
+                0800A0114A7A7A7A /* NSViewShim.m */,
+                0800A0124A7A7A7A /* VZAppSettings.m */,
+                0800A0134A7A7A7A /* VZDiagnostics.m */,
+                0800A0144A7A7A7A /* VZFailureDetailsViewController.m */,
+                0800A0154A7A7A7A /* VZNewVMViewController.m */,
+                0800A0164A7A7A7A /* VZProgressViewController.m */,
+                0800A0174A7A7A7A /* VZSettingsViewController.m */,
+                0800A0184A7A7A7A /* VZTrackpadScrollBridge.m */,
+                0800A0194A7A7A7A /* VZGuestTools.m */,
+                0800A01A4A7A7A7A /* VZGuestRuntimePolicy.m */,
+                0800A01B4A7A7A7A /* VZVMLibraryViewController.m */,
+                0800A01C4A7A7A7A /* VZSupport.m */,
+                0800A01D4A7A7A7A /* VZRestoreCatalog.m */,
+                0800A01E4A7A7A7A /* virtualmac_diagnostics_main.m */,
+                0800A01F4A7A7A7A /* vzxpchook.m */,
+                F5B5F61D7710F3A2 /* VirtualMac-Info.plist */,
+                a1f4c5e0f9d941d9a /* VirtualMac.entitlements */,
+                0800A0204A7A7A7A /* VirtualMacLaunchScreen.storyboard */,
+            );
+            path = "VirtualMac/vz/host";
+            sourceTree = "<group>";
+        };
+        0900A1D2EFD0A1F90 /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+                0800A0214A7A7A7A /* UIKit.framework */,
+                0800A0224A7A7A7A /* Foundation.framework */,
+                0800A0234A7A7A7A /* Virtualization.framework */,
+                0800A0244A7A7A7A /* WebKit.framework */,
+                0800A0254A7A7A7A /* AVFoundation.framework */,
+                0800A0264A7A7A7A /* QuartzCore.framework */,
+                0800A0274A7A7A7A /* CoreImage.framework */,
+                0800A0284A7A7A7A /* Metal.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+        0900A1D3EFD0A1F90 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                0800A0294A7A7A7A /* VirtualMac.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F0001D32C1A0001A1234567 /* VirtualMac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F0001F02C1A0001A1234567 /* Build configuration list for PBXNativeTarget "VirtualMac" */;
-			buildPhases = (
-				5F0001D02C1A0001A1234567 /* Sources */,
-				5F0001D42C1A0001A1234567 /* Frameworks */,
-				5F0001D52C1A0001A1234567 /* Resources */,
-				5F0001EE2C1A0001A1234567 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = VirtualMac;
-			productName = VirtualMac;
-			productReference = 5F0001D72C1A0001A1234567 /* VirtualMac.app */;
-			productType = "com.apple.product-type.application";
-		};
+        0900A1E0EFD0A1F90 /* VirtualMac */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 0900A1F1EFD0A1F90 /* Build configuration list for PBXNativeTarget "VirtualMac" */;
+            buildPhases = (
+                0900A1E1EFD0A1F90 /* Sources */,
+                0900A1E2EFD0A1F90 /* Frameworks */,
+                0900A1E3EFD0A1F90 /* Resources */,
+                0900A1E4EFD0A1F90 /* ShellScript */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = VirtualMac;
+            productName = VirtualMac;
+            productReference = 0800A0294A7A7A7A /* VirtualMac.app */;
+            productType = "com.apple.product-type.application";
+        };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5F0001CC2C1A0001A1234567 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1540;
-				ORGANIZATIONNAME = "Virtual Mac";
-				TargetAttributes = {
-					5F0001D32C1A0001A1234567 = {
-						CreatedOnToolsVersion = 15.4;
-					};
-				};
-			};
-			buildConfigurationList = 5F0001CF2C1A0001A1234567 /* Build configuration list for PBXProject "VirtualMac" */;
-			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 5F0001CB2C1A0001A1234567;
-			productRefGroup = 5F0001D72C1A0001A1234567 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				5F0001D32C1A0001A1234567 /* VirtualMac */,
-			);
-		};
+        0900A1A0EFD0A1F90 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastUpgradeCheck = 1540;
+                ORGANIZATIONNAME = "Virtual Mac";
+                TargetAttributes = {
+                    0900A1E0EFD0A1F90 = {
+                        CreatedOnToolsVersion = 15.4;
+                    };
+                };
+            };
+            buildConfigurationList = 0900A1A1EFD0A1F90 /* Build configuration list for PBXProject "VirtualMac" */;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = 0900A1C0EFD0A1F90;
+            productRefGroup = 0900A1D3EFD0A1F90 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                0900A1E0EFD0A1F90 /* VirtualMac */,
+            );
+        };
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5F0001D52C1A0001A1234567 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F0001E92C1A0001A1234567 /* VirtualMacLaunchScreen.storyboard in Resources */,
-				5F0001EA2C1A0001A1234567 /* VirtualMac-Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        0900A1E3EFD0A1F90 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                0800A1114A7A7A7A /* VirtualMacLaunchScreen.storyboard in Resources */,
+                a1f4c5e0f9d941d9a /* VirtualMac.entitlements in Resources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5F0001EE2C1A0001A1234567 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Sign with ldid for jailbreak environment\nif command -v ldid &> /dev/null; then\n    ldid -Icom.mac.virtual -S\"${SRCROOT}/VirtualMac/VirtualMac.entitlements\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n";
-		};
+        0900A1E4EFD0A1F90 /* ShellScript */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputFileListPaths = (
+            );
+            inputPaths = (
+            );
+            outputFileListPaths = (
+            );
+            outputPaths = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "if command -v ldid >/dev/null 2>&1; then\n  ldid -Icom.mac.virtual -S\"${SRCROOT}/VirtualMac/vz/host/VirtualMac.entitlements\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" || true\nfi\n";
+        };
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F0001D02C1A0001A1234567 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F0001E32C1A0001A1234567 /* VirtualMacApp.m in Sources */,
-				5F0001E42C1A0001A1234567 /* VZAppSettings.m in Sources */,
-				5F0001E52C1A0001A1234567 /* VZDiagnostics.m in Sources */,
-				5F0001E62C1A0001A1234567 /* VZSupport.m in Sources */,
-				5F0001E72C1A0001A1234567 /* VZGuestRuntimePolicy.m in Sources */,
-				5F0001E82C1A0001A1234567 /* VZJITSupport.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        0900A1E1EFD0A1F90 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                0800A1014A7A7A7A /* VirtualMacApp.m in Sources */,
+                0800A1024A7A7A7A /* NSViewShim.m in Sources */,
+                0800A1034A7A7A7A /* VZAppSettings.m in Sources */,
+                0800A1044A7A7A7A /* VZDiagnostics.m in Sources */,
+                0800A1054A7A7A7A /* VZFailureDetailsViewController.m in Sources */,
+                0800A1064A7A7A7A /* VZNewVMViewController.m in Sources */,
+                0800A1074A7A7A7A /* VZProgressViewController.m in Sources */,
+                0800A1084A7A7A7A /* VZSettingsViewController.m in Sources */,
+                0800A1094A7A7A7A /* VZTrackpadScrollBridge.m in Sources */,
+                0800A10A4A7A7A7A /* VZGuestTools.m in Sources */,
+                0800A10B4A7A7A7A /* VZGuestRuntimePolicy.m in Sources */,
+                0800A10C4A7A7A7A /* VZVMLibraryViewController.m in Sources */,
+                0800A10D4A7A7A7A /* VZSupport.m in Sources */,
+                0800A10E4A7A7A7A /* VZRestoreCatalog.m in Sources */,
+                0800A10F4A7A7A7A /* virtualmac_diagnostics_main.m in Sources */,
+                0800A1104A7A7A7A /* vzxpchook.m in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5F0001F12C1A0001A1234567 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_DIALECT = "gnu++20";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/System/Library/PrivateFrameworks";
-				GCC_C_LANGUAGE_DIALECT = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-					"ENABLE_JIT_SUPPORT=1",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		5F0001F22C1A0001A1234567 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_DIALECT = "gnu++20";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/System/Library/PrivateFrameworks";
-				GCC_C_LANGUAGE_DIALECT = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = fast;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"ENABLE_JIT_SUPPORT=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5F0001F32C1A0001A1234567 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VirtualMac.app/VirtualMac";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/System/Library/PrivateFrameworks";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"ENABLE_JIT_SUPPORT=1",
-					"ENABLE_STICKDEBUG=1",
-					"MIN_IOS_VERSION=14",
-				);
-				INFOPLIST_FILE = "VirtualMac/VirtualMac-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Virtual Mac";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = VirtualMacLaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mac.virtual;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USE_HEADERMAP = NO;
-			};
-			name = Debug;
-		};
-		5F0001F42C1A0001A1234567 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VirtualMac.app/VirtualMac";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/System/Library/PrivateFrameworks";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"ENABLE_JIT_SUPPORT=1",
-					"ENABLE_STICKDEBUG=1",
-					"MIN_IOS_VERSION=14",
-				);
-				INFOPLIST_FILE = "VirtualMac/VirtualMac-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Virtual Mac";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = VirtualMacLaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mac.virtual;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USE_HEADERMAP = NO;
-			};
-			name = Release;
-		};
-	};
-	runOnlyForDeploymentPostprocessing = 0;
-}
-/* End PBXProject section */
+        0900A1A2EFD0A1F90 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_OBJC_ARC = NO;
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_MODULES_AUTOLINK = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CODE_SIGN_ENTITLEMENTS = "VirtualMac/vz/host/VirtualMac.entitlements";
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_DIALECT = gnu17;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                    "ENABLE_JIT_SUPPORT=1",
+                    "ENABLE_STICKDEBUG=1",
+                    "MIN_IOS_VERSION=14",
+                );
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = "VirtualMac/vz/host/VirtualMac-Info.plist";
+                INFOPLIST_KEY_CFBundleDisplayName = "Virtual Mac";
+                INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+                INFOPLIST_KEY_UILaunchStoryboardName = VirtualMacLaunchScreen;
+                IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+                LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+                MARKETING_VERSION = 1.3.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.mac.virtual;
+                PRODUCT_NAME = VirtualMac;
+                SDKROOT = iphoneos;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        0900A1A3EFD0A1F90 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_OBJC_ARC = NO;
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_MODULES_AUTOLINK = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CODE_SIGN_ENTITLEMENTS = "VirtualMac/vz/host/VirtualMac.entitlements";
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_DIALECT = gnu17;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "ENABLE_JIT_SUPPORT=1",
+                    "ENABLE_STICKDEBUG=1",
+                    "MIN_IOS_VERSION=14",
+                    "$(inherited)",
+                );
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = "VirtualMac/vz/host/VirtualMac-Info.plist";
+                INFOPLIST_KEY_CFBundleDisplayName = "Virtual Mac";
+                INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+                INFOPLIST_KEY_UILaunchStoryboardName = VirtualMacLaunchScreen;
+                IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+                LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+                MARKETING_VERSION = 1.3.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.mac.virtual;
+                PRODUCT_NAME = VirtualMac;
+                SDKROOT = iphoneos;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+        0900A1B2EFD0A1F90 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                DEVELOPMENT_TEAM = "";
+                ENABLE_BITCODE = NO;
+                ENABLE_TESTABILITY = YES;
+                FRAMEWORK_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "$(SDKROOT)/System/Library/Frameworks",
+                    "$(SDKROOT)/System/Library/PrivateFrameworks",
+                );
+                PRODUCT_NAME = VirtualMac;
+            };
+            name = Debug;
+        };
+        0900A1B3EFD0A1F90 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                DEVELOPMENT_TEAM = "";
+                ENABLE_BITCODE = NO;
+                FRAMEWORK_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "$(SDKROOT)/System/Library/Frameworks",
+                    "$(SDKROOT)/System/Library/PrivateFrameworks",
+                );
+                PRODUCT_NAME = VirtualMac;
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
 
-/* Build configuration list for PBXProject "VirtualMac" object */
-	5F0001CF2C1A0001A1234567 /* Build configuration list for PBXProject "VirtualMac" */ = {
-		isa = XCConfigurationList;
-		buildConfigurations = (
-			5F0001F12C1A0001A1234567 /* Debug */,
-			5F0001F22C1A0001A1234567 /* Release */,
-		);
-		defaultConfigurationIsVisible = 0;
-		defaultConfigurationName = Release;
-	};
+/* Begin XCConfigurationList section */
+        0900A1A1EFD0A1F90 /* Build configuration list for PBXProject "VirtualMac" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                0900A1A2EFD0A1F90 /* Debug */,
+                0900A1A3EFD0A1F90 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        0900A1F1EFD0A1F90 /* Build configuration list for PBXNativeTarget "VirtualMac" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                0900A1B2EFD0A1F90 /* Debug */,
+                0900A1B3EFD0A1F90 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
 
-/* Build configuration list for PBXNativeTarget "VirtualMac" object */
-	5F0001F02C1A0001A1234567 /* Build configuration list for PBXNativeTarget "VirtualMac" */ = {
-		isa = XCConfigurationList;
-		buildConfigurations = (
-			5F0001F32C1A0001A1234567 /* Debug */,
-			5F0001F42C1A0001A1234567 /* Release */,
-		);
-		defaultConfigurationIsVisible = 0;
-		defaultConfigurationName = Release;
-	};
+    };
+    rootObject = 0900A1A0EFD0A1F90;
 }
